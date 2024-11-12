@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Calcola il Prezzo del Biglietto</h1>
+    <form id="bigliettoForm" onsubmit="calcolaPrezzoBiglietto(event)">
+        <label for="km">Chilometri da percorrere:</label>
+        <input type="number" id="km" name="km" value="10" required>
+        <br>
+        <br>
+
+        <label for="eta">Età del passeggero:</label>
+        <input type="number" id="eta" name="eta" value="30" required>
+        <br>
+        <br>
+
+        <button type="submit">Calcola Prezzo</button>
+    </form>
+    <h2>Risultato</h2>
+    <p id="risultato"></p>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
